@@ -31,8 +31,18 @@ export default {
   },
   methods: {
     onSubmit: function () {
+      if (this.inputtext.name === '') {
+        alert('用户名不能为空')
+        return
+      }
+      if (this.inputtext.mypassword === '') {
+        alert('密码不能为空')
+        return
+      }
+
       console.log('click on submit : name=' + this.inputtext.name + '  pass=' + this.inputtext.mypassword)
-      this.$router.push({ path: '/home/home' })
+
+      this.$router.push({ name: 'home' })
     }
   }
 

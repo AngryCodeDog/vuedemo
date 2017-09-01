@@ -6,16 +6,19 @@
 	  </div>
 
 	  <div id="nav">
-		  <div>个人</div>
-		  <div>Paris</div>
-		  <div>Tokyo</div>
+          <div>
+              <router-link to="{ name: 'goods' }">个人</router-link>
+          </div>
+          <div>
+              <router-link to="{ name: 'comment' }">控制台</router-link>
+          </div>
+          <div>
+              <router-link to="{ name: 'seller' }">three</router-link>
+          </div>
 	  </div>
 
 	  <div id="section">
-		  <h2>Manager: KangKang</h2>
-		  <p>
-           this is test manger test
-		  </p>
+          <router-view></router-view>
 	  </div>
 
 	  <div id="footer">
@@ -26,7 +29,6 @@
 
 <script>
 export default {
-
 }
 
 </script>
