@@ -1,25 +1,25 @@
 <template>
-  <div>
+  <div id="homediv">
 
 	  <div id="header">
-		  <h1>Manager Home</h1>
+		  <h1>Manage</h1>
 	  </div>
 
-	  <div id="nav" class="box2">
-		  <li>London</li>
-		  <li>Paris</li>
-		  <li>Tokyo</li>
+	  <div id="nav">
+		  <div>个人</div>
+		  <div>Paris</div>
+		  <div>Tokyo</div>
 	  </div>
 
 	  <div id="section">
-		  <h2>London</h2>
+		  <h2>Manager: KangKang</h2>
 		  <p>
            this is test manger test
 		  </p>
 	  </div>
 
 	  <div id="footer">
-		  Copyright ? W3Schools.com
+		  Footer in demo  
 	  </div>
   </div>
 </template>
@@ -35,8 +35,8 @@ export default {
 
 
 <style>
-.box2 {
-display:flex;
+#homediv {
+height:100%;
 }
 #header {
 background-color:black;
@@ -45,7 +45,6 @@ text-align:center;
 padding:5px;
 }
 #nav {
-flex-direction:column;
 line-height:30px;
 background-color:#eeeeee;
 height:100%;
@@ -66,5 +65,4 @@ clear:both;
 text-align:center;
 padding:5px;		 
 }
-html,body{height:100%}
 </style>
