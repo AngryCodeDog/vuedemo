@@ -21,9 +21,9 @@ export default new Router({
       component: home,
       children: [
         {path: '', component: goods},
-        {path: 'home', name: 'goods', component: goods},
-        {path: 'home', name: 'comment', component: comment},
-        {path: 'home', name: 'seller', component: seller}
+        {path: 'goods', name: 'goods', component: goods},
+        {path: 'comment', name: 'comment', component: comment},
+        {path: 'seller', name: 'seller', component: seller}
       ]
     }
   ]

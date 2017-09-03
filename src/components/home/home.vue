@@ -7,13 +7,13 @@
 
 	  <div id="nav">
           <div>
-              <router-link to="{ name: 'goods' }">个人</router-link>
+              <router-link to="/home/goods">个人</router-link>
           </div>
           <div>
-              <router-link to="{ name: 'comment' }">控制台</router-link>
+              <router-link to="/home/comment">控制台</router-link>
           </div>
           <div>
-              <router-link to="{ name: 'seller' }">three</router-link>
+              <router-link to="/home/seller">three</router-link>
           </div>
 	  </div>
 
