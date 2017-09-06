@@ -1,6 +1,6 @@
 # vuedemo
 
-> A Vue.js project
+> A Vue.js project，demo address: https://angrycodedog.github.io/vuedemo/dist/index.html
 
 ## Build Setup
 
